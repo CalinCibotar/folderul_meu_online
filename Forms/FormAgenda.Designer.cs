@@ -76,6 +76,13 @@
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.adaugaDomeniuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adaugaActivitateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adaugaProiectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adaugaResursaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adaugaSarcinaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.afiseazaActivitatiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.arhivaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             this.toolStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -120,30 +127,42 @@
             // 
             // msDomeniiButton
             // 
+            this.msDomeniiButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adaugaDomeniuToolStripMenuItem});
             this.msDomeniiButton.Name = "msDomeniiButton";
             this.msDomeniiButton.Size = new System.Drawing.Size(125, 38);
             this.msDomeniiButton.Text = "Domenii";
             // 
             // msActivitatiButton
             // 
+            this.msActivitatiButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adaugaActivitateToolStripMenuItem,
+            this.afiseazaActivitatiToolStripMenuItem});
             this.msActivitatiButton.Name = "msActivitatiButton";
             this.msActivitatiButton.Size = new System.Drawing.Size(126, 38);
             this.msActivitatiButton.Text = "Activitati";
             // 
             // msProiecteButton
             // 
+            this.msProiecteButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adaugaProiectToolStripMenuItem});
             this.msProiecteButton.Name = "msProiecteButton";
             this.msProiecteButton.Size = new System.Drawing.Size(120, 38);
             this.msProiecteButton.Text = "Proiecte";
             // 
             // msResurseButton
             // 
+            this.msResurseButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adaugaResursaToolStripMenuItem});
             this.msResurseButton.Name = "msResurseButton";
             this.msResurseButton.Size = new System.Drawing.Size(115, 38);
             this.msResurseButton.Text = "Resurse";
             // 
             // msSarciniButton
             // 
+            this.msSarciniButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adaugaSarcinaToolStripMenuItem,
+            this.arhivaToolStripMenuItem});
             this.msSarciniButton.Name = "msSarciniButton";
             this.msSarciniButton.Size = new System.Drawing.Size(104, 38);
             this.msSarciniButton.Text = "Sarcini";
@@ -530,6 +549,53 @@
             this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
             this.toolStripStatusLabel3.Size = new System.Drawing.Size(0, 32);
             // 
+            // adaugaDomeniuToolStripMenuItem
+            // 
+            this.adaugaDomeniuToolStripMenuItem.Name = "adaugaDomeniuToolStripMenuItem";
+            this.adaugaDomeniuToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.adaugaDomeniuToolStripMenuItem.Text = "Adauga Domeniu";
+            this.adaugaDomeniuToolStripMenuItem.Click += new System.EventHandler(this.adaugaDomeniuToolStripMenuItem_Click);
+            // 
+            // adaugaActivitateToolStripMenuItem
+            // 
+            this.adaugaActivitateToolStripMenuItem.Name = "adaugaActivitateToolStripMenuItem";
+            this.adaugaActivitateToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.adaugaActivitateToolStripMenuItem.Text = "Adauga Activitate";
+            this.adaugaActivitateToolStripMenuItem.Click += new System.EventHandler(this.adaugaActivitateToolStripMenuItem_Click);
+            // 
+            // adaugaProiectToolStripMenuItem
+            // 
+            this.adaugaProiectToolStripMenuItem.Name = "adaugaProiectToolStripMenuItem";
+            this.adaugaProiectToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.adaugaProiectToolStripMenuItem.Text = "Adauga Proiect";
+            this.adaugaProiectToolStripMenuItem.Click += new System.EventHandler(this.adaugaProiectToolStripMenuItem_Click);
+            // 
+            // adaugaResursaToolStripMenuItem
+            // 
+            this.adaugaResursaToolStripMenuItem.Name = "adaugaResursaToolStripMenuItem";
+            this.adaugaResursaToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.adaugaResursaToolStripMenuItem.Text = "Adauga Resursa";
+            this.adaugaResursaToolStripMenuItem.Click += new System.EventHandler(this.adaugaResursaToolStripMenuItem_Click);
+            // 
+            // adaugaSarcinaToolStripMenuItem
+            // 
+            this.adaugaSarcinaToolStripMenuItem.Name = "adaugaSarcinaToolStripMenuItem";
+            this.adaugaSarcinaToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.adaugaSarcinaToolStripMenuItem.Text = "Adauga Sarcina";
+            this.adaugaSarcinaToolStripMenuItem.Click += new System.EventHandler(this.adaugaSarcinaToolStripMenuItem_Click);
+            // 
+            // afiseazaActivitatiToolStripMenuItem
+            // 
+            this.afiseazaActivitatiToolStripMenuItem.Name = "afiseazaActivitatiToolStripMenuItem";
+            this.afiseazaActivitatiToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.afiseazaActivitatiToolStripMenuItem.Text = "Afiseaza Activitati";
+            // 
+            // arhivaToolStripMenuItem
+            // 
+            this.arhivaToolStripMenuItem.Name = "arhivaToolStripMenuItem";
+            this.arhivaToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.arhivaToolStripMenuItem.Text = "Arhiva ";
+            // 
             // FormAgenda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -541,7 +607,7 @@
             this.Controls.Add(this.menuStrip2);
             this.Name = "FormAgenda";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Agenda_Activitati";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FormAgenda_Load);
             this.menuStrip2.ResumeLayout(false);
@@ -617,6 +683,13 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colDenu;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDataInc;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDataSfarsit;
+        private System.Windows.Forms.ToolStripMenuItem adaugaDomeniuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem adaugaActivitateToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem afiseazaActivitatiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem adaugaProiectToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem adaugaResursaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem adaugaSarcinaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem arhivaToolStripMenuItem;
     }
 }
 
